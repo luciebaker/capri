@@ -1,0 +1,27 @@
+/* Navbar */
+.navbar {
+    padding: 0.5rem 4rem;
+    background-color:#d3d9c4;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar-nav {
+    padding-right: 20px;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-family: 'Libre Baskerville', serif;
+  }
+  
+  .nav-link:hover {
+    color: #3a6499;
+  }
+  
+  .form-inline {
+    padding-left: 1.5rem;
+  }
+  
+  .navbar-logo {
+    width: 150px;
+  }

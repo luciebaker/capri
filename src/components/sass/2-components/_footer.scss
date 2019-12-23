@@ -1,0 +1,43 @@
+/* Footer and copyright section */
+.footer {
+    background-color: #818c84;
+    padding-bottom: 0;
+  }
+  
+  hr {
+    border: solid #3a6499 4px;
+    border-bottom: none;
+    width: 80%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  
+  .header {
+    padding-bottom: 15px;
+  }
+
+  .footer-logo {
+    width: 180px;
+  }
+  
+  .list-unstyled {
+    line-height: 1.7rem;
+  }
+  
+  .form-group {
+    margin-bottom: 0;
+  }
+  
+  button.btn.btn-unique {
+    margin-top: 15px;
+  }
+  
+  .copyright {
+    padding-top: 20px;
+    padding-bottom: 7px;
+    background-color: #3a6499;
+  }
+  
+  .copyright a {
+    color: #818c84;
+  }

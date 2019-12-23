@@ -1,0 +1,139 @@
+/* Reservation Section */
+
+/* .reservation {
+  background-color: #d3d9c4;
+} */
+
+/*reservation form css*/
+section.reservation {
+    background: #d3d9c4;
+    overflow: hidden
+  }
+  
+  section.reservation .form-holder {
+    font-size: 0.8rem;
+    position: relative;
+    /* background: #f9f9f9; */
+    padding: 0;
+    z-index: 1
+  }
+  
+  section.reservation .form-holder::before {
+    content: '';
+    width: 80%;
+    height: 2px;
+    background: #3a6499;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    display: block
+  }
+  
+  section.reservation .form-holder::after {
+    content: '';
+    width: 30vw;
+    max-width: 400px;
+    height: 300px;
+    display: block;
+    // background: url(../img/vegetables.png) no-repeat;
+    background-position: center center;
+    background-size: 100%;
+    position: absolute;
+    bottom: -100px;
+    right: -10vw;
+    z-index: -1
+  }
+  
+  section.reservation .form-holder .ribbon {
+    width: 50px;
+    height: 50px;
+    line-height: 55px;
+    color: #f9f9f9;
+    background: #3a6499;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    font-size: 20px;
+  }
+  
+  section.reservation .form-holder .ribbon::after {
+    content: '';
+    display: block;
+    border-top: 10px solid #3a6499;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    position: absolute;
+    top: 50px;
+    left: 0;
+  }
+  
+  section.reservation .form-holder form {
+    z-index: 1;
+    padding: 20px 20px 50px;
+  }
+  
+  @media (max-width: 767.98px) {
+    section.reservation .form-holder .ribbon {
+      width: 40px;
+      height: 40px;
+      line-height: 25px
+    }
+  
+    section.reservation .form-holder .ribbon::after {
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      top: 40px
+    }
+  }
+
+  /*form styling*/
+
+label.unique {
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-size: 1.2em;
+    text-align: left;
+    color: #5e5f63;
+    display: block;
+    margin-top: 20px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s
+  }
+  
+  label.unique.active {
+    color: #3a6499
+  }
+  
+  label.unique.active input, label.unique.active textarea {
+    border-color: #3a6499 !important
+  }
+  
+  
+  label.unique input, label.unique textarea {
+    border-bottom: 2px solid #3a6499 !important;
+    max-height: 200px;
+    font-size: 1.3em;
+    resize: vertical;
+    padding: 10px 10px;
+    display: block;
+    border: none;
+    width: 100%;
+    color: #333;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s
+  }
+  
+  label.error {
+    font-size: 0.85rem;
+    color: #dc3545;
+    margin-top:     0
+  }
+  
+    form button {
+    margin-top: 20px;
+    outline: none;
+    min-width: 150px;
+    font-size: 1.1rem !important
+  }
+  
+  

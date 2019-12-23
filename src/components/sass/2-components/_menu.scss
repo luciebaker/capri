@@ -1,0 +1,137 @@
+/* Menu section */
+.menu {
+    background-color: #f9f9f9;
+  }
+  
+  section.menu ul.nav-tabs {
+    background: #d3d9c4;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: none
+  }
+  
+  section.menu ul.nav-tabs li.nav-item {
+    float: none;
+    display: inline-block
+  }
+  
+  section.menu ul.nav-tabs li.nav-item a.nav-link {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #333;
+    background: none;
+    border: none
+  }
+  
+  section.menu ul.nav-tabs li.nav-item a.nav-link.active {
+    color: #3a6499;
+    background: none
+  }
+  
+  section.menu .tab-pane .menu-item {
+    padding: 20px 0;
+    border-bottom: 1px solid #d3d9c4;
+  }
+  
+  section.menu .tab-pane .menu-item h5 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-top: 0
+  }
+  
+  section.menu .tab-pane .menu-item p {
+    font-size: 0.90rem;
+    color: #5e5f63;
+    margin-top: 5px;
+  }
+  
+  section.menu .tab-pane .menu-item .item-price {
+    color: #3a6499;
+  }
+  
+  section.menu .tab-pane .menu-item .item-price strong {
+    display: block;
+    font-size: 1.1rem;
+    margin-top: 5px
+  }
+  
+  section.menu .tab-pane .menu-item.recommended {
+    border-bottom: none;
+    background: #3a6499;
+    padding: 0 20px
+  }
+  
+  section.menu .tab-pane .menu-item.recommended .item-details {
+    padding: 20px 0
+  }
+  
+  section.menu .tab-pane .menu-item.recommended h5, section.menu .tab-pane .menu-item.recommended p {
+    color: #fff;
+    line-height: 1.5rem;
+    margin-bottom: 0
+  }
+  
+  section.menu .tab-pane .menu-item.recommended .item-price {
+    text-align: right;
+    position: absolute;
+    top: 10px;
+    right: 20px
+  }
+  .item-price-standard {
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.1rem;
+  }
+  
+  section.menu .tab-pane .menu-item.recommended .item-price strong {
+    color: #fff !important
+  }
+  
+  section.menu .tab-pane .menu-item.recommended .item-price span {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: #fff
+  }
+  
+  @media (max-width: 767.98px) {
+    section.menu .nav-link {
+      font-size: 0.85rem !important
+    }
+  
+    section.menu div[class*='col-']:not(:last-of-type) {
+      margin-bottom: 10px
+    }
+  }
+  
+  .text-primary {
+    color: #3a6499 !important
+  }
+  
+  .has-border, section.menu .tab-pane .menu-item.recommended {
+    position: relative;
+    z-index: 1
+  }
+  
+  .has-border::before, section.menu .tab-pane .menu-item.recommended::before {
+    content: '';
+    width: calc(100% - 4px);
+    height: calc(100% - 4px);
+    border: 1px solid #f9f9f9;
+    position: absolute;
+    display: block;
+    top: 2px;
+    left: 2px;
+    z-index: -1
+  }
+  
+  
+  a.text-primary:hover, a.text-primary:focus {
+    color: #3a6499 !important
+  }
+  
+  
