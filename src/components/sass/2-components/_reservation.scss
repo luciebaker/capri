@@ -35,7 +35,6 @@ section.reservation {
     max-width: 400px;
     height: 300px;
     display: block;
-    // background: url(../img/vegetables.png) no-repeat;
     background-position: center center;
     background-size: 100%;
     position: absolute;
@@ -72,7 +71,8 @@ section.reservation {
     padding: 20px 20px 50px;
   }
   
-  @media (max-width: 767.98px) {
+  @media (max-width: 768px) {
+
     section.reservation .form-holder .ribbon {
       width: 40px;
       height: 40px;
@@ -136,4 +136,16 @@ label.unique {
     font-size: 1.1rem !important
   }
   
-  
+
+  @media (max-width: 992px) {
+    .reservation {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+    @media (max-width: 768px) {
+      .reservation {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+    }
