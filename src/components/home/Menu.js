@@ -1,11 +1,14 @@
-import React from 'react'
+import React, { Component } from 'react'
 
-const Menu = () => {
+export default class Menu extends Component {
+  render() {
     return (
-        <div>
-            <p>Menu will be here</p>
-        </div>
+      <section id="menu" className="menu">
+            <div className="container">
+                <h2 className="section-header text-center header">Our Menu</h2>
+                <h3 className="text-center">... is on it's way</h3>
+            </div>
+        </section>
     )
+  }
 }
-
-export default Menu
