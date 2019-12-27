@@ -49,7 +49,7 @@ export default class Navbar extends Component {
             <Link to='/' className="navbar-brand">
             <img className="navbar-brand navbar-logo" src={logo} alt="Capriccio Pasta Cafe Logo"/>
             </Link>
-            <button className="navbar-toggler" type="button" onClick={this.navbarHandler}>
+            <button className="navbar-toggler" aria-label="toggle navbar" type="button" onClick={this.navbarHandler}>
             <span className="navbar-toggler-icon" />
             </button>
             <div className={this.state.css}>

@@ -27,9 +27,9 @@ export default class Footer extends Component {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod.</p>
         <form>
                 <div className="form-group">
-                <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter your email address"/>
+                <input type="email" className="form-control" id="exampleInputEmail1" aria-label="email" placeholder="Enter your email address"/>
                 </div>
-                <button type="submit" className="btn btn-unique mb-3">Subscribe</button>
+                <button type="submit" aria-label="submit" aria-hidden="true" className="btn btn-unique mb-3">Subscribe</button>
             </form>
         </div>
     </div>

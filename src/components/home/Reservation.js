@@ -12,19 +12,19 @@ const Reservation = () => {
             <form id="reservation-form" method="get" action="#">
 
             <div className="row justify-content-center reservation">
-            <label for="name" className="col-md-6 unique"> Name 
+            <label for="name" aria-label="name" className="col-md-6 unique"> Name 
                 <input id="name" name="name" type="text" ></input></label>
-                <label for="email" className="col-md-6 unique">Email
+                <label for="email" aria-label="email" className="col-md-6 unique">Email
                 <input id="email" name="email" type="email" ></input></label>
-                <label for="number" className="col-md-6 unique">Contact Number
+                <label for="number" aria-label="contact number" className="col-md-6 unique">Contact Number
                 <input id="number" name="number" type="text" ></input></label>
-                <label for="people" className="col-md-6 unique">How many People?
+                <label for="people" aria-label="number of people"  className="col-md-6 unique">How many People?
                 <input id="people" name="people" type="number" min="1" required=""></input></label>
-                <label for="date" className="col-md-6 unique">Date 
+                <label for="date" aria-label="date" className="col-md-6 unique">Date 
                 <input id="date" name="date" type="text" data-language="en" ></input></label>
-                <label for="time" className="col-md-6 unique">Time 
+                <label for="time" aria-label="time" className="col-md-6 unique">Time 
                 <input id="time" name="time" type="text" ></input></label>
-                <label for="request" className="col-md-12 unique">Special Requests 
+                <label for="request" aria-label="special requests" className="col-md-12 unique">Special Requests 
                 <textarea id="request" className="unique" name="request"></textarea></label>
                 <div className="col-lg-12 text-center">
                 <div class="col-md-12">
