@@ -29,7 +29,7 @@ export default function Specialty () {
                         <div class="card dishes-card">
                             <Img className="card-img-top" alt="pasta" fluid={pasta}/>
                             <div class="card-body">
-                            <h4>Ravioli di burrata e tartufo nero</h4>
+                            <h4>Ravioli di Burrata e Tartufo Nero</h4>
                             <p class="card-text">Ravioli filled with burrata cheese and black truffle, tossed in
                             porcini mushrooms sauce and topped with crispy parma ham</p>
                         </div>
@@ -48,7 +48,7 @@ export default function Specialty () {
                         <div class="card dishes-card">
                             <Img className="card-img-top" alt="pasta" fluid={pasta}/>
                         <div class="card-body">
-                            <h4>Cannelloni ricotta e spinachi</h4>
+                            <h4>Cannelloni Ricotta e Spinachi</h4>
                             <p class="card-text">Rolled pasta sheets with fillings of spinach and ricotta cheese oven baked with creamy béchamel sauce</p>
                         </div>
                         </div>

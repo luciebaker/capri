@@ -10,22 +10,22 @@ export default class Navbar extends Component {
         links: [
             {
                 id: 1,
-                path: '/',
+                path: '/#about',
                 text: 'About'
                 },
             {
                 id: 2,
-                path: '/',
+                path: '/#menu',
                 text: 'Menu'
                 },
             {
                 id: 3,
-                path: '/',
+                path: '/#reservation',
                 text: 'Reservation'
                 },
             {
                 id: 4,
-                path: '/',
+                path: '/#footer',
                 text: 'Contact'
                 }   
         ]

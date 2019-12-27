@@ -16,9 +16,9 @@ export default class Footer extends Component {
             <h3>Contact</h3>
             <hr></hr>
             <ul className="contact list-unstyled">
-                    <li><FaMapMarkerAlt /> Find us Here</li>
-                    <li><FaPhone /> Give us a call</li>
-                    <li><FaEnvelope /> Email us</li>
+                    <li><FaMapMarkerAlt />  Find us Here</li>
+                    <li><FaPhone />  Give us a call</li>
+                    <li><FaEnvelope />  Email us</li>
                 </ul>
         </div>
         <div className="col-md-4">   
